@@ -1,4 +1,7 @@
-<app-top-bar></app-top-bar>
+<!-- app.component.html -->
+<app-toolbar></app-toolbar>
+<app-location *ngFor="let location of locations" [location]="location"></app-location>
+
 
 <div class="container">
   <router-outlet></router-outlet>

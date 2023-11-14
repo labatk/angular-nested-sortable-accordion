@@ -1,0 +1,8 @@
+<!-- location.component.html -->
+<div class="location-item">
+    <p>Name: {{ location.name }}</p>
+    <p *ngIf="location.shortName">Short Name: {{ location.shortName }}</p>
+    <p *ngIf="location.parentLocation">Parent: {{ location.parentLocation.name }}</p>
+    <!-- Add additional content as needed -->
+  </div>
+  

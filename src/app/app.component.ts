@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SortablejsModule } from 'ngx-sortablejs';
 
 @Component({
   selector: 'app-root',
@@ -6,6 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  locations = [
+    { name: 'Location 1', shortName: 'L1', parentLocation: null },
+    // Add more location objects as needed
+  ];
 }
 
 
